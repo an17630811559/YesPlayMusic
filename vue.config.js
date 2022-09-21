@@ -38,7 +38,7 @@ module.exports = {
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'index.html',
-      title: '网易云音乐网页版',
+      title: '网易云音乐网页版1111',
       chunks: ['main', 'chunk-vendors', 'chunk-common', 'index'],
     },
   },
