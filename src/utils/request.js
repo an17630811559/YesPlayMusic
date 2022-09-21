@@ -53,8 +53,8 @@ service.interceptors.response.use(
   },
   async error => {
     /** @type {import('axios').AxiosResponse | null} */
-    const response = error.response;
-    const data = response.data;
+    const response = error?.response;
+    const data = response?.data;
 
     if (
       response &&

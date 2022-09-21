@@ -226,8 +226,8 @@ export default class {
       this._personalFMTrack.id === this._personalFMNextTrack.id
     ) {
       personalFM().then(result => {
-        this._personalFMTrack = result.data[0];
-        this._personalFMNextTrack = result.data[1];
+        this._personalFMTrack = result?.data[0];
+        this._personalFMNextTrack = result?.data[1];
         return this._personalFMTrack;
       });
     }
