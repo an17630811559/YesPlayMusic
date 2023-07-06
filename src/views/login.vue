@@ -1,9 +1,9 @@
 <template>
   <div class="login">
     <div class="section-1">
-      <img src="/img/logos/yesplaymusic.png" />
+      <img src="img/logos/yesplaymusic.png" />
       <svg-icon icon-class="x"></svg-icon>
-      <img src="/img/logos/netease-music.png" />
+      <img src="img/logos/netease-music.png" />
     </div>
     <div class="section-2">
       <div
@@ -40,7 +40,6 @@
 
 <script>
 import NProgress from 'nprogress';
-
 import SvgIcon from '@/components/SvgIcon.vue';
 
 export default {
